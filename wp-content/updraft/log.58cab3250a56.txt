@@ -1,0 +1,487 @@
+0000.000 (0) Opened log file at time: Thu, 10 Mar 2022 12:04:51 +0000 on https://campusm.exlibrisgroup.com
+0000.017 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.24 WP: 5.9.1 PHP: 7.4.14 (cgi-fcgi, Linux ds12916 5.4.32-grsec-grsec.virt+ #1 SMP Sat Apr 18 00:33:59 UTC 2020 x86_64) MySQL: 5.7.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 63M | 64.5M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.033 (0) Free space on disk containing Updraft's temporary directory: 896355.4 MB
+0000.051 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.100 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.133 (0) Semaphore (fd, wp_63avey_options) was stuck, set lock time to 2022-03-10 12:04:51
+0000.167 (0) Semaphore (fd, wp_63avey_options) reset to 1
+0000.200 (0) Set semaphore last lock (fd) time to 2022-03-10 12:04:51
+0000.217 (0) Semaphore lock (fd) complete
+0000.267 (0) Backup run: resumption=0, nonce=58cab3250a56, begun at=1646913891 (0s ago), job type=backup
+0000.301 (0) Scheduling a resumption (1) after 300 seconds (1646914191) in case this run gets aborted
+0000.378 (0) Checking if we have a zip executable available
+0000.401 (0) Testing: /usr/bin/zip
+0000.439 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.460 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.567 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.600 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.618 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.654 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.668 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.694 (0) Working binary zip found: /usr/bin/zip
+0000.726 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.743 (0) Creation of backups of directories: beginning
+0000.793 (0) Beginning creation of dump of plugins (split every: 25 MB)
+0001.717 (0) Total entities for the zip file: 905 directories, 5177 files (0 skipped as non-modified), 71.7 MB
+0001.770 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.801 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.828 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.851 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.878 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.893 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.3 MB, 5177 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0004.068 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: size is now: 3.30 MB
+0004.111 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 600 files added (on-disk size: 3411.5 KB)
+0004.134 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 700 files added (on-disk size: 3411.5 KB)
+0004.160 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 800 files added (on-disk size: 3411.5 KB)
+0004.186 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 900 files added (on-disk size: 3411.5 KB)
+0004.211 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1000 files added (on-disk size: 3411.5 KB)
+0004.227 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11 MB, 5177 files batched, 501 (1002) added so far); re-opening (prior size: 3411.5 KB)
+0006.320 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: size is now: 6.00 MB
+0006.370 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1100 files added (on-disk size: 6136.8 KB)
+0006.393 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1200 files added (on-disk size: 6136.8 KB)
+0006.419 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1300 files added (on-disk size: 6136.8 KB)
+0006.444 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1400 files added (on-disk size: 6136.8 KB)
+0006.479 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1500 files added (on-disk size: 6136.8 KB)
+0006.510 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8 MB, 5177 files batched, 501 (1503) added so far); re-opening (prior size: 6136.8 KB)
+0008.400 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: size is now: 7.80 MB
+0008.460 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1600 files added (on-disk size: 7939.6 KB)
+0008.491 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1700 files added (on-disk size: 7939.6 KB)
+0008.518 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1800 files added (on-disk size: 7939.6 KB)
+0008.541 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 1900 files added (on-disk size: 7939.6 KB)
+0008.568 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2000 files added (on-disk size: 7939.6 KB)
+0008.585 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 5177 files batched, 501 (2004) added so far); re-opening (prior size: 7939.6 KB)
+0009.385 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2100 files added (on-disk size: 8678.6 KB)
+0009.412 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2200 files added (on-disk size: 8678.6 KB)
+0009.432 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2300 files added (on-disk size: 8678.6 KB)
+0009.459 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2400 files added (on-disk size: 8678.6 KB)
+0009.507 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2500 files added (on-disk size: 8678.6 KB)
+0009.536 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.3 MB, 5177 files batched, 501 (2505) added so far); re-opening (prior size: 8678.6 KB)
+0010.793 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2600 files added (on-disk size: 9912 KB)
+0010.816 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2700 files added (on-disk size: 9912 KB)
+0010.842 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2800 files added (on-disk size: 9912 KB)
+0010.867 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 2900 files added (on-disk size: 9912 KB)
+0010.912 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3000 files added (on-disk size: 9912 KB)
+0010.944 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.4 MB, 5177 files batched, 501 (3006) added so far); re-opening (prior size: 9912 KB)
+0012.941 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: size is now: 14.20 MB
+0013.014 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3100 files added (on-disk size: 14496.8 KB)
+0013.040 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3200 files added (on-disk size: 14496.8 KB)
+0013.064 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3300 files added (on-disk size: 14496.8 KB)
+0013.091 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3400 files added (on-disk size: 14496.8 KB)
+0013.117 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3500 files added (on-disk size: 14496.8 KB)
+0013.135 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 5177 files batched, 501 (3507) added so far); re-opening (prior size: 14496.8 KB)
+0015.052 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3600 files added (on-disk size: 16490.3 KB)
+0015.093 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3700 files added (on-disk size: 16490.3 KB)
+0015.126 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3800 files added (on-disk size: 16490.3 KB)
+0015.149 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 3900 files added (on-disk size: 16490.3 KB)
+0015.176 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4000 files added (on-disk size: 16490.3 KB)
+0015.194 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.9 MB, 5177 files batched, 501 (4008) added so far); re-opening (prior size: 16490.3 KB)
+0016.364 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4100 files added (on-disk size: 17403.2 KB)
+0016.381 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4200 files added (on-disk size: 17403.2 KB)
+0016.399 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4300 files added (on-disk size: 17403.2 KB)
+0016.414 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4400 files added (on-disk size: 17403.2 KB)
+0016.431 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4500 files added (on-disk size: 17403.2 KB)
+0016.443 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5 MB, 5177 files batched, 501 (4509) added so far); re-opening (prior size: 17403.2 KB)
+0018.463 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4600 files added (on-disk size: 19126.9 KB)
+0018.486 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4700 files added (on-disk size: 19126.9 KB)
+0018.506 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4800 files added (on-disk size: 19126.9 KB)
+0018.531 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 4900 files added (on-disk size: 19126.9 KB)
+0018.548 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 5000 files added (on-disk size: 19126.9 KB)
+0018.560 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.1 MB, 5177 files batched, 501 (5010) added so far); re-opening (prior size: 19126.9 KB)
+0020.752 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip.tmp: 5100 files added (on-disk size: 22215.8 KB)
+0021.492 (0) Created plugins zip (0) - 22508 KB in 20.7 s (1088.3 KB/s) (sha1: 7691d76d021de7cebc2289effb17c53c009f9ee7, sha256: 82ad9aaec538b9eae0dda26afd6ce4e5ac32129fe9f4b749349836b29b8ea5dc)
+0021.526 (0) Beginning creation of dump of themes (split every: 25 MB)
+0021.630 (0) Total entities for the zip file: 19 directories, 312 files (0 skipped as non-modified), 35 MB
+0021.668 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.689 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 312 files batched, 150 (150) added so far); re-opening (prior size: 0 KB)
+0022.912 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-themes.zip.tmp: size is now: 23.20 MB
+0022.992 (0) A useful amount of data was added after this amount of zip processing: 1.5 s (normalised: 1.5 s, rate: 16681.9 KB/s)
+0023.009 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.5363719463348, normalised_time=1.53459811754, max_time=-1, data points known=0, max_bytes=26214400)
+0023.042 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (4.7 MB, 1 (151) files added so far); last ratio: 0.9266; re-opening (prior size: 23748.9 KB)
+0023.157 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-themes.zip.tmp: size is now: 27.90 MB
+0023.201 (0) Zip size is at/near split limit (27.9 MB / 25 MB) - bumping index (from: 0)
+0023.642 (0) Created themes zip (0) - 28558.5 KB in 1.7 s (17060.1 KB/s) (checksums: sha1: b43c15e09cb80a48f632b994c751145d919f359c, sha256: 2d443b848a573b5a1c374f5a429614d68ae669dc14105d380cee8727e66106d2)
+0023.678 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-themes2.zip.tmp: 200 files added (on-disk size: 0 KB)
+0023.698 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-themes2.zip.tmp: 300 files added (on-disk size: 0 KB)
+0024.227 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-themes2.zip.tmp: size is now: 4.50 MB
+0024.359 (0) Created themes zip (1) - 4602.6 KB in 0.7 s (6572.3 KB/s) (sha1: 9485be6aa482848fef1a0a27adfdfbfed69348f3, sha256: e3f541e65379419df4e8cbdf7d76c9f69b373f9accfca9d8bee931d3492deb62)
+0024.393 (0) Exclusion option setting (uploads): 
+0024.409 (0) Looking for candidates to backup in: /home/stratigossh/campusm.exlibrisgroup.com/wp-content/uploads
+0024.426 (0) finding files: 2021: adding to list (1)
+0024.443 (0) finding files: 2022: adding to list (2)
+0024.459 (0) finding files: maxmegamenu: adding to list (3)
+0024.476 (0) finding files: wp-file-manager-pro: adding to list (4)
+0024.493 (0) finding files: wpcf7_uploads: adding to list (5)
+0024.510 (0) Beginning creation of dump of uploads (split every: 25 MB)
+0024.653 (0) Total entities for the zip file: 15 directories, 801 files (0 skipped as non-modified), 195 MB
+0024.686 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0024.711 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0024.732 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 801 files batched, 268 (268) added so far); re-opening (prior size: 0 KB)
+0026.319 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads.zip.tmp: size is now: 24.50 MB
+0026.394 (0) A useful amount of data was added after this amount of zip processing: 1.9 s (normalised: 1.9 s, rate: 13216.2 KB/s)
+0026.410 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.9380519390106, normalised_time=1.9370128812738, max_time=-1, data points known=0, max_bytes=26214400)
+0026.444 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (0.5 MB, 6 (274) files added so far); last ratio: 0.9792; re-opening (prior size: 25081.2 KB)
+0026.594 (0) Zip size is at/near split limit (25 MB / 25 MB) - bumping index (from: 0)
+0027.019 (0) Created uploads zip (0) - 25582 KB in 2.1 s (12180.8 KB/s) (checksums: sha1: 6201fce6f939d687f20bff6716f99be572406e3e, sha256: 28a5965a5a902dae0f010dfb4ff6640289fdbf65120a3d49bb54cc3cb27eb82e)
+0027.061 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads2.zip.tmp: 300 files added (on-disk size: 0 KB)
+0027.088 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads2.zip.tmp: 400 files added (on-disk size: 0 KB)
+0027.111 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26.5 MB, 801 files batched, 147 (421) added so far); re-opening (prior size: 0 KB)
+0027.989 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads2.zip.tmp: size is now: 26.60 MB
+0028.075 (0) A useful amount of data was added after this amount of zip processing: 1.6 s (normalised: 1.5 s, rate: 16782.9 KB/s)
+0028.092 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.6192200183868, normalised_time=1.5253664894872, max_time=-1, data points known=0, max_bytes=26214400)
+0028.125 (0) Zip size is at/near split limit (26.6 MB / 25 MB) - bumping index (from: 1)
+0028.558 (0) Created uploads zip (1) - 27201.7 KB in 1.1 s (24600.7 KB/s) (checksums: sha1: 12be0025527382d740a8a141384ed71b1741d5b2, sha256: bd285b29b8661bce343f2f0d76b898d2de453487c84fe120d7e9be0f039bde07)
+0028.600 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads3.zip.tmp: 500 files added (on-disk size: 0 KB)
+0028.624 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads3.zip.tmp: 600 files added (on-disk size: 0 KB)
+0028.643 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 801 files batched, 198 (619) added so far); re-opening (prior size: 0 KB)
+0029.594 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads3.zip.tmp: size is now: 25.10 MB
+0029.666 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11616.8 KB/s)
+0029.683 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.2108690738678, normalised_time=2.2036971218129, max_time=-1, data points known=0, max_bytes=26214400)
+0029.717 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 2)
+0030.125 (0) Created uploads zip (2) - 25664.1 KB in 1.2 s (22155.5 KB/s) (checksums: sha1: a130b5826fc0b22ab00f0823503105412fd80692, sha256: de3e6440c5db03d666a7af9f6d972d6e75983499bd61f8609d12f21227f8f6bc)
+0030.162 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (41 MB, 801 files batched, 36 (655) added so far); re-opening (prior size: 0 KB)
+0031.851 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads4.zip.tmp: size is now: 41.00 MB
+0031.967 (0) A useful amount of data was added after this amount of zip processing: 2.5 s (normalised: 1.5 s, rate: 16714.4 KB/s)
+0032.029 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.5109770298004, normalised_time=1.5316154852334, max_time=-1, data points known=0, max_bytes=26214400)
+0032.153 (0) Zip size is at/near split limit (41 MB / 25 MB) - bumping index (from: 3)
+0032.753 (0) Created uploads zip (3) - 41935.4 KB in 2 s (20680.6 KB/s) (checksums: sha1: 9fe4a718034f67d91c1ceb07dc8d404a2d7bb942, sha256: 9879bf4f4756a815c8b6716ddaa48d28b9bbb1ac3a9f8d4e7ddabe41e189d996)
+0032.791 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads5.zip.tmp: 700 files added (on-disk size: 0 KB)
+0032.826 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 801 files batched, 50 (705) added so far); re-opening (prior size: 0 KB)
+0035.093 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads5.zip.tmp: size is now: 25.00 MB
+0035.186 (0) A useful amount of data was added after this amount of zip processing: 3.7 s (normalised: 3.7 s, rate: 6876.5 KB/s)
+0035.203 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=3.7301700115204, normalised_time=3.7228237457449, max_time=-1, data points known=0, max_bytes=26214400)
+0035.236 (0) Zip size is at/near split limit (25 MB / 25 MB) - bumping index (from: 4)
+0035.641 (0) Created uploads zip (4) - 25616.8 KB in 2.5 s (10317.2 KB/s) (checksums: sha1: b145961adc257812095cabbae513aa10b11b2217, sha256: 5299ffe9d4ed8a7f253db1a773c736f1144a036f40b6070efbc8838c3e0d33e5)
+0035.686 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.9 MB, 801 files batched, 24 (729) added so far); re-opening (prior size: 0 KB)
+0036.213 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads6.zip.tmp: size is now: 25.90 MB
+0036.261 (0) A useful amount of data was added after this amount of zip processing: 1.8 s (normalised: 1.7 s, rate: 14702.6 KB/s)
+0036.278 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=1.8056149482727, normalised_time=1.7411927942386, max_time=-1, data points known=0, max_bytes=26214400)
+0036.320 (0) Zip size is at/near split limit (25.9 MB / 25 MB) - bumping index (from: 5)
+0036.725 (0) Created uploads zip (5) - 26552.2 KB in 0.7 s (39321.8 KB/s) (checksums: sha1: 398656e8c4d1ff8353fb47123ed112c979b65c23, sha256: 11302dbc9bc086e040584d7273606c6122d0371da51fc42cdeb2df0452bb1620)
+0036.768 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 801 files batched, 61 (790) added so far); re-opening (prior size: 0 KB)
+0037.625 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads7.zip.tmp: size is now: 25.10 MB
+0037.661 (0) A useful amount of data was added after this amount of zip processing: 2.2 s (normalised: 2.2 s, rate: 11650.9 KB/s)
+0037.678 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=2.2057890892029, normalised_time=2.1972473304386, max_time=-1, data points known=0, max_bytes=26214400)
+0037.712 (0) Zip size is at/near split limit (25.1 MB / 25 MB) - bumping index (from: 6)
+0038.120 (0) Created uploads zip (6) - 25713.1 KB in 1 s (26148.1 KB/s) (checksums: sha1: 92c3f430374dfd61fbbe61f6d1d68f87bf956e1b, sha256: b30ec6ca6fb573224df241b0a86d511cc790d92a86f169fc0cccbcb1e172712b)
+0038.155 (0) Zip: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads8.zip.tmp: 800 files added (on-disk size: 0 KB)
+0038.337 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads8.zip.tmp: size is now: 0.10 MB
+0038.412 (0) Created uploads zip (7) - 98 KB in 0.3 s (355.6 KB/s) (sha1: b71cf5fc9a38ab6fb83e876190b53d6ac0f55f20, sha256: a0d4e1d2c25f5e8aacebd047a992232fbbca8386c537bd3f4f0a891954253548)
+0038.430 (0) No backup of wpcore: excluded by user's options
+0038.492 (0) Beginning backup of other directories found in the content directory (index: 0)
+0038.512 (0) Exclusion option setting (others): 
+0038.529 (0) Looking for candidates to backup in: /home/stratigossh/campusm.exlibrisgroup.com/wp-content
+0038.546 (0) finding files: plugins: skipping: this is the plugins directory
+0038.562 (0) finding files: index.php: adding to list (1)
+0038.579 (0) finding files: themes: skipping: this is the themes directory
+0038.596 (0) finding files: uploads: skipping: this is the uploads directory
+0038.612 (0) finding files: upgrade: adding to list (2)
+0038.629 (0) finding files: updraft: skipping: this is the updraft directory
+0038.646 (0) finding files: wflogs: adding to list (3)
+0038.681 (0) Total entities for the zip file: 2 directories, 11 files (0 skipped as non-modified), 5.8 MB
+0039.236 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-others.zip.tmp: size is now: 2.70 MB
+0039.389 (0) Created others zip (0) - 2783.7 KB in 0.7 s (3843.1 KB/s) (sha1: 00ba6f9323c62e0e67780fcdb5a4b29ca2bcb604, sha256: 3f6dd12fbec241ff5a485886d015a4569ba9a6c8efb5af89ba19fc69c121dd60)
+0039.415 (0) No backup of more: excluded by user's options
+0039.480 (0) Saving backup status to database (elements: 16)
+0039.514 (0) Beginning creation of database dump (WordPress DB)
+0039.585 (0) Testing: /usr/bin/mysqldump
+0039.792 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_63avey_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1269 bytes total)
+0039.823 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0039.882 (0) Table wp_63avey_options: Total expected rows (approximate): 526
+0040.039 (0) Table wp_63avey_options: Total rows added: 530 in 0.12 seconds
+0040.057 (0) Table wp_63avey_options: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_options.table.gz - 426.7 KB)
+0040.107 (0) Table wp_63avey_users: Total expected rows (approximate): 5
+0040.126 (0) Table wp_63avey_users: Total rows added: 5 in 0.00 seconds
+0040.148 (0) Table wp_63avey_users: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_users.table.gz - 0.9 KB)
+0040.199 (0) Table wp_63avey_usermeta: Total expected rows (approximate): 197
+0040.220 (0) Table wp_63avey_usermeta: Total rows added: 197 in 0.01 seconds
+0040.240 (0) Table wp_63avey_usermeta: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_usermeta.table.gz - 5.9 KB)
+0040.358 (0) Table wp_63avey_commentmeta: Total expected rows (approximate): 0
+0040.390 (0) Table wp_63avey_commentmeta: Total rows added: 0 in 0.02 seconds
+0040.415 (0) Table wp_63avey_commentmeta: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_commentmeta.table.gz - 0.4 KB)
+0040.483 (0) Table wp_63avey_comments: Total expected rows (approximate): 0
+0040.501 (0) Table wp_63avey_comments: Total rows added: 0 in 0.00 seconds
+0040.524 (0) Table wp_63avey_comments: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_comments.table.gz - 0.5 KB)
+0040.583 (0) Table wp_63avey_links: Total expected rows (approximate): 0
+0040.633 (0) Table wp_63avey_links: Total rows added: 0 in 0.03 seconds
+0040.682 (0) Table wp_63avey_links: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_links.table.gz - 0.4 KB)
+0040.741 (0) Table wp_63avey_postmeta: Total expected rows (approximate): 24772
+0041.070 (0) Table wp_63avey_postmeta: binary mysqldump finished (writes: 34) in 0.31 seconds
+0041.101 (0) Table wp_63avey_postmeta: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_postmeta.table.gz - 375.3 KB)
+0041.167 (0) Table wp_63avey_posts: Total expected rows (approximate): 778
+0041.236 (0) Table wp_63avey_posts: Total rows added: 772 in 0.04 seconds
+0041.255 (0) Table wp_63avey_posts: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_posts.table.gz - 60.1 KB)
+0041.318 (0) Table wp_63avey_term_relationships: Total expected rows (approximate): 97
+0041.341 (0) Table wp_63avey_term_relationships: Total rows added: 97 in 0.00 seconds
+0041.359 (0) Table wp_63avey_term_relationships: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_term_relationships.table.gz - 0.7 KB)
+0041.422 (0) Table wp_63avey_term_taxonomy: Total expected rows (approximate): 31
+0041.446 (0) Table wp_63avey_term_taxonomy: Total rows added: 31 in 0.00 seconds
+0041.467 (0) Table wp_63avey_term_taxonomy: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_term_taxonomy.table.gz - 0.7 KB)
+0041.531 (0) Table wp_63avey_termmeta: Total expected rows (approximate): 16
+0041.554 (0) Table wp_63avey_termmeta: Total rows added: 16 in 0.00 seconds
+0041.576 (0) Table wp_63avey_termmeta: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_termmeta.table.gz - 0.5 KB)
+0041.640 (0) Table wp_63avey_terms: Total expected rows (approximate): 31
+0041.663 (0) Table wp_63avey_terms: Total rows added: 31 in 0.00 seconds
+0041.685 (0) Table wp_63avey_terms: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_terms.table.gz - 0.8 KB)
+0041.748 (0) Table wp_63avey_db7_forms: Total expected rows (approximate): 0
+0041.787 (0) Table wp_63avey_db7_forms: Total rows added: 0 in 0.02 seconds
+0041.814 (0) Table wp_63avey_db7_forms: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_db7_forms.table.gz - 0.3 KB)
+0041.882 (0) Table wp_63avey_icl_content_status: Total expected rows (approximate): 0
+0041.906 (0) Table wp_63avey_icl_content_status: Total rows added: 0 in 0.00 seconds
+0041.927 (0) Table wp_63avey_icl_content_status: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_content_status.table.gz - 0.3 KB)
+0041.991 (0) Table wp_63avey_icl_core_status: Total expected rows (approximate): 0
+0042.031 (0) Table wp_63avey_icl_core_status: Total rows added: 0 in 0.02 seconds
+0042.056 (0) Table wp_63avey_icl_core_status: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_core_status.table.gz - 0.4 KB)
+0042.120 (0) Table wp_63avey_icl_flags: Total expected rows (approximate): 65
+0042.149 (0) Table wp_63avey_icl_flags: Total rows added: 65 in 0.00 seconds
+0042.169 (0) Table wp_63avey_icl_flags: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_flags.table.gz - 0.9 KB)
+0042.246 (0) Table wp_63avey_icl_languages: Total expected rows (approximate): 65
+0042.274 (0) Table wp_63avey_icl_languages: Total rows added: 65 in 0.01 seconds
+0042.295 (0) Table wp_63avey_icl_languages: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_languages.table.gz - 1.6 KB)
+0042.371 (0) Table wp_63avey_icl_languages_translations: Total expected rows (approximate): 4225
+0042.475 (0) Table wp_63avey_icl_languages_translations: Total rows added: 4225 in 0.08 seconds
+0042.504 (0) Table wp_63avey_icl_languages_translations: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_languages_translations.table.gz - 34.8 KB)
+0042.596 (0) Table wp_63avey_icl_locale_map: Total expected rows (approximate): 3
+0042.666 (0) Table wp_63avey_icl_locale_map: Total rows added: 3 in 0.00 seconds
+0042.687 (0) Table wp_63avey_icl_locale_map: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_locale_map.table.gz - 0.3 KB)
+0042.763 (0) Table wp_63avey_icl_message_status: Total expected rows (approximate): 0
+0042.791 (0) Table wp_63avey_icl_message_status: Total rows added: 0 in 0.00 seconds
+0042.812 (0) Table wp_63avey_icl_message_status: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_message_status.table.gz - 0.4 KB)
+0042.880 (0) Table wp_63avey_icl_mo_files_domains: Total expected rows (approximate): 86
+0042.926 (0) Table wp_63avey_icl_mo_files_domains: Total rows added: 86 in 0.00 seconds
+0042.946 (0) Table wp_63avey_icl_mo_files_domains: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_mo_files_domains.table.gz - 4.3 KB)
+0043.022 (0) Table wp_63avey_icl_node: Total expected rows (approximate): 0
+0043.050 (0) Table wp_63avey_icl_node: Total rows added: 0 in 0.00 seconds
+0043.071 (0) Table wp_63avey_icl_node: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_node.table.gz - 0.3 KB)
+0043.148 (0) Table wp_63avey_icl_reminders: Total expected rows (approximate): 0
+0043.176 (0) Table wp_63avey_icl_reminders: Total rows added: 0 in 0.00 seconds
+0043.197 (0) Table wp_63avey_icl_reminders: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_reminders.table.gz - 0.3 KB)
+0043.273 (0) Table wp_63avey_icl_string_batches: Total expected rows (approximate): 0
+0043.297 (0) Table wp_63avey_icl_string_batches: Total rows added: 0 in 0.00 seconds
+0043.322 (0) Table wp_63avey_icl_string_batches: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_batches.table.gz - 0.3 KB)
+0043.386 (0) Table wp_63avey_icl_string_packages: Total expected rows (approximate): 0
+0043.405 (0) Table wp_63avey_icl_string_packages: Total rows added: 0 in 0.00 seconds
+0043.427 (0) Table wp_63avey_icl_string_packages: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_packages.table.gz - 0.4 KB)
+0043.478 (0) Table wp_63avey_icl_string_pages: Total expected rows (approximate): 0
+0043.497 (0) Table wp_63avey_icl_string_pages: Total rows added: 0 in 0.00 seconds
+0043.519 (0) Table wp_63avey_icl_string_pages: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_pages.table.gz - 0.3 KB)
+0043.570 (0) Table wp_63avey_icl_string_positions: Total expected rows (approximate): 0
+0043.589 (0) Table wp_63avey_icl_string_positions: Total rows added: 0 in 0.00 seconds
+0043.611 (0) Table wp_63avey_icl_string_positions: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_positions.table.gz - 0.4 KB)
+0043.666 (0) Table wp_63avey_icl_string_status: Total expected rows (approximate): 0
+0043.690 (0) Table wp_63avey_icl_string_status: Total rows added: 0 in 0.00 seconds
+0043.711 (0) Table wp_63avey_icl_string_status: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_status.table.gz - 0.4 KB)
+0043.770 (0) Table wp_63avey_icl_string_translations: Total expected rows (approximate): 0
+0043.798 (0) Table wp_63avey_icl_string_translations: Total rows added: 0 in 0.00 seconds
+0043.820 (0) Table wp_63avey_icl_string_translations: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_translations.table.gz - 0.5 KB)
+0043.887 (0) Table wp_63avey_icl_string_urls: Total expected rows (approximate): 0
+0043.915 (0) Table wp_63avey_icl_string_urls: Total rows added: 0 in 0.00 seconds
+0043.937 (0) Table wp_63avey_icl_string_urls: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_urls.table.gz - 0.4 KB)
+0044.013 (0) Table wp_63avey_icl_strings: Total expected rows (approximate): 34
+0044.042 (0) Table wp_63avey_icl_strings: Total rows added: 34 in 0.01 seconds
+0044.062 (0) Table wp_63avey_icl_strings: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_strings.table.gz - 2 KB)
+0044.126 (0) Table wp_63avey_icl_translate: Total expected rows (approximate): 8
+0044.165 (0) Table wp_63avey_icl_translate: Total rows added: 8 in 0.02 seconds
+0044.212 (0) Table wp_63avey_icl_translate: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translate.table.gz - 0.6 KB)
+0044.277 (0) Table wp_63avey_icl_translate_job: Total expected rows (approximate): 2
+0044.316 (0) Table wp_63avey_icl_translate_job: Total rows added: 2 in 0.02 seconds
+0044.359 (0) Table wp_63avey_icl_translate_job: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translate_job.table.gz - 0.5 KB)
+0044.422 (0) Table wp_63avey_icl_translation_batches: Total expected rows (approximate): 0
+0044.463 (0) Table wp_63avey_icl_translation_batches: Total rows added: 1 in 0.02 seconds
+0044.484 (0) Table wp_63avey_icl_translation_batches: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translation_batches.table.gz - 0.4 KB)
+0044.547 (0) Table wp_63avey_icl_translation_downloads: Total expected rows (approximate): 0
+0044.572 (0) Table wp_63avey_icl_translation_downloads: Total rows added: 0 in 0.00 seconds
+0044.593 (0) Table wp_63avey_icl_translation_downloads: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translation_downloads.table.gz - 0.3 KB)
+0044.656 (0) Table wp_63avey_icl_translation_status: Total expected rows (approximate): 114
+0044.697 (0) Table wp_63avey_icl_translation_status: Total rows added: 114 in 0.02 seconds
+0044.719 (0) Table wp_63avey_icl_translation_status: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translation_status.table.gz - 1.9 KB)
+0044.781 (0) Table wp_63avey_icl_translations: Total expected rows (approximate): 218
+0044.808 (0) Table wp_63avey_icl_translations: Total rows added: 218 in 0.01 seconds
+0044.831 (0) Table wp_63avey_icl_translations: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translations.table.gz - 2.3 KB)
+0044.895 (0) Table wp_63avey_redirects: Total expected rows (approximate): 4
+0044.914 (0) Table wp_63avey_redirects: Total rows added: 4 in 0.00 seconds
+0044.936 (0) Table wp_63avey_redirects: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_redirects.table.gz - 0.4 KB)
+0044.987 (0) Table wp_63avey_wfblockediplog: Total expected rows (approximate): 294
+0045.009 (0) Table wp_63avey_wfblockediplog: Total rows added: 315 in 0.01 seconds
+0045.028 (0) Table wp_63avey_wfblockediplog: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfblockediplog.table.gz - 2.8 KB)
+0045.079 (0) Table wp_63avey_wfblocks7: Total expected rows (approximate): 2
+0045.098 (0) Table wp_63avey_wfblocks7: Total rows added: 2 in 0.00 seconds
+0045.120 (0) Table wp_63avey_wfblocks7: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfblocks7.table.gz - 0.5 KB)
+0045.171 (0) Table wp_63avey_wfconfig: Total expected rows (approximate): 259
+0045.219 (0) Table wp_63avey_wfconfig: Total rows added: 261 in 0.03 seconds
+0045.238 (0) Table wp_63avey_wfconfig: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfconfig.table.gz - 406.5 KB)
+0045.289 (0) Table wp_63avey_wfcrawlers: Total expected rows (approximate): 19
+0045.308 (0) Table wp_63avey_wfcrawlers: Total rows added: 19 in 0.00 seconds
+0045.329 (0) Table wp_63avey_wfcrawlers: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfcrawlers.table.gz - 0.8 KB)
+0045.381 (0) Table wp_63avey_wffilechanges: Total expected rows (approximate): 0
+0045.400 (0) Table wp_63avey_wffilechanges: Total rows added: 0 in 0.00 seconds
+0045.421 (0) Table wp_63avey_wffilechanges: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wffilechanges.table.gz - 0.3 KB)
+0045.489 (0) Table wp_63avey_wffilemods: Total expected rows (approximate): 6582
+0045.864 (0) Table wp_63avey_wffilemods: Total rows added: 7505 in 0.35 seconds
+0045.889 (0) Table wp_63avey_wffilemods: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wffilemods.table.gz - 649.2 KB)
+0045.964 (0) Table wp_63avey_wfhits: Total expected rows (approximate): 638
+0046.028 (0) Table wp_63avey_wfhits: Total rows added: 677 in 0.04 seconds
+0046.056 (0) Table wp_63avey_wfhits: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfhits.table.gz - 28.1 KB)
+0046.123 (0) Table wp_63avey_wfhoover: Total expected rows (approximate): 0
+0046.151 (0) Table wp_63avey_wfhoover: Total rows added: 0 in 0.00 seconds
+0046.172 (0) Table wp_63avey_wfhoover: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfhoover.table.gz - 0.3 KB)
+0046.249 (0) Table wp_63avey_wfissues: Total expected rows (approximate): 6
+0046.278 (0) Table wp_63avey_wfissues: Total rows added: 6 in 0.01 seconds
+0046.298 (0) Table wp_63avey_wfissues: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfissues.table.gz - 2.2 KB)
+0046.360 (0) Table wp_63avey_wfknownfilelist: Total expected rows (approximate): 7249
+0046.544 (0) Table wp_63avey_wfknownfilelist: Total rows added: 7505 in 0.16 seconds
+0046.568 (0) Table wp_63avey_wfknownfilelist: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfknownfilelist.table.gz - 72.2 KB)
+0046.633 (0) Table wp_63avey_wflivetraffichuman: Total expected rows (approximate): 0
+0046.654 (0) Table wp_63avey_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0046.673 (0) Table wp_63avey_wflivetraffichuman: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wflivetraffichuman.table.gz - 0.3 KB)
+0046.736 (0) Table wp_63avey_wflocs: Total expected rows (approximate): 1
+0046.788 (0) Table wp_63avey_wflocs: Total rows added: 2 in 0.00 seconds
+0046.807 (0) Table wp_63avey_wflocs: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wflocs.table.gz - 0.5 KB)
+0046.869 (0) Table wp_63avey_wflogins: Total expected rows (approximate): 797
+0046.912 (0) Table wp_63avey_wflogins: Total rows added: 895 in 0.02 seconds
+0046.933 (0) Table wp_63avey_wflogins: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wflogins.table.gz - 20.2 KB)
+0046.995 (0) Table wp_63avey_wfls_2fa_secrets: Total expected rows (approximate): 0
+0047.028 (0) Table wp_63avey_wfls_2fa_secrets: Total rows added: 0 in 0.01 seconds
+0047.052 (0) Table wp_63avey_wfls_2fa_secrets: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfls_2fa_secrets.table.gz - 0.4 KB)
+0047.125 (0) Table wp_63avey_wfls_settings: Total expected rows (approximate): 23
+0047.152 (0) Table wp_63avey_wfls_settings: Total rows added: 23 in 0.00 seconds
+0047.175 (0) Table wp_63avey_wfls_settings: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfls_settings.table.gz - 0.8 KB)
+0047.251 (0) Table wp_63avey_wfnotifications: Total expected rows (approximate): 11
+0047.277 (0) Table wp_63avey_wfnotifications: Total rows added: 13 in 0.00 seconds
+0047.300 (0) Table wp_63avey_wfnotifications: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfnotifications.table.gz - 1.1 KB)
+0047.376 (0) Table wp_63avey_wfpendingissues: Total expected rows (approximate): 0
+0047.419 (0) Table wp_63avey_wfpendingissues: Total rows added: 0 in 0.02 seconds
+0047.445 (0) Table wp_63avey_wfpendingissues: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfpendingissues.table.gz - 0.4 KB)
+0047.518 (0) Table wp_63avey_wfreversecache: Total expected rows (approximate): 3
+0047.545 (0) Table wp_63avey_wfreversecache: Total rows added: 3 in 0.00 seconds
+0047.568 (0) Table wp_63avey_wfreversecache: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfreversecache.table.gz - 0.5 KB)
+0047.644 (0) Table wp_63avey_wfsnipcache: Total expected rows (approximate): 0
+0047.672 (0) Table wp_63avey_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0047.710 (0) Table wp_63avey_wfsnipcache: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfsnipcache.table.gz - 0.4 KB)
+0047.812 (0) Table wp_63avey_wfstatus: Total expected rows (approximate): 1189
+0047.868 (0) Table wp_63avey_wfstatus: Total rows added: 1307 in 0.03 seconds
+0047.895 (0) Table wp_63avey_wfstatus: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfstatus.table.gz - 23 KB)
+0047.970 (0) Table wp_63avey_wftrafficrates: Total expected rows (approximate): 0
+0048.014 (0) Table wp_63avey_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0048.030 (0) Table wp_63avey_wftrafficrates: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wftrafficrates.table.gz - 0.3 KB)
+0048.096 (0) Table wp_63avey_wpfm_backup: Total expected rows (approximate): 0
+0048.123 (0) Table wp_63avey_wpfm_backup: Total rows added: 0 in 0.00 seconds
+0048.139 (0) Table wp_63avey_wpfm_backup: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wpfm_backup.table.gz - 0.3 KB)
+0048.190 (0) Table wp_63avey_yoast_indexable: Total expected rows (approximate): 553
+0048.234 (0) Table wp_63avey_yoast_indexable: Total rows added: 553 in 0.03 seconds
+0048.248 (0) Table wp_63avey_yoast_indexable: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_indexable.table.gz - 39.2 KB)
+0048.298 (0) Table wp_63avey_yoast_indexable_hierarchy: Total expected rows (approximate): 514
+0048.320 (0) Table wp_63avey_yoast_indexable_hierarchy: Total rows added: 514 in 0.01 seconds
+0048.340 (0) Table wp_63avey_yoast_indexable_hierarchy: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_indexable_hierarchy.table.gz - 1.8 KB)
+0048.391 (0) Table wp_63avey_yoast_migrations: Total expected rows (approximate): 23
+0048.419 (0) Table wp_63avey_yoast_migrations: Total rows added: 23 in 0.01 seconds
+0048.440 (0) Table wp_63avey_yoast_migrations: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_migrations.table.gz - 0.6 KB)
+0048.516 (0) Table wp_63avey_yoast_primary_term: Total expected rows (approximate): 17
+0048.536 (0) Table wp_63avey_yoast_primary_term: Total rows added: 17 in 0.00 seconds
+0048.557 (0) Table wp_63avey_yoast_primary_term: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_primary_term.table.gz - 0.8 KB)
+0048.608 (0) Table wp_63avey_yoast_seo_links: Total expected rows (approximate): 26
+0048.628 (0) Table wp_63avey_yoast_seo_links: Total rows added: 29 in 0.00 seconds
+0048.649 (0) Table wp_63avey_yoast_seo_links: finishing file (backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_seo_links.table.gz - 1.5 KB)
+0048.699 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_options.table.gz (1/65): adding to final database dump
+0048.782 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_users.table.gz (2/65): adding to final database dump
+0048.799 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_usermeta.table.gz (3/65): adding to final database dump
+0048.818 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_commentmeta.table.gz (4/65): adding to final database dump
+0048.832 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_comments.table.gz (5/65): adding to final database dump
+0048.849 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_links.table.gz (6/65): adding to final database dump
+0048.866 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_postmeta.table.gz (7/65): adding to final database dump
+0048.952 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_posts.table.gz (8/65): adding to final database dump
+0048.979 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_term_relationships.table.gz (9/65): adding to final database dump
+0049.000 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_term_taxonomy.table.gz (10/65): adding to final database dump
+0049.016 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_termmeta.table.gz (11/65): adding to final database dump
+0049.033 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_terms.table.gz (12/65): adding to final database dump
+0049.049 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_db7_forms.table.gz (13/65): adding to final database dump
+0049.066 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_content_status.table.gz (14/65): adding to final database dump
+0049.083 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_core_status.table.gz (15/65): adding to final database dump
+0049.099 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_flags.table.gz (16/65): adding to final database dump
+0049.116 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_languages.table.gz (17/65): adding to final database dump
+0049.133 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_languages_translations.table.gz (18/65): adding to final database dump
+0049.165 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_locale_map.table.gz (19/65): adding to final database dump
+0049.183 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_message_status.table.gz (20/65): adding to final database dump
+0049.200 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_mo_files_domains.table.gz (21/65): adding to final database dump
+0049.217 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_node.table.gz (22/65): adding to final database dump
+0049.233 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_reminders.table.gz (23/65): adding to final database dump
+0049.250 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_batches.table.gz (24/65): adding to final database dump
+0049.266 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_packages.table.gz (25/65): adding to final database dump
+0049.283 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_pages.table.gz (26/65): adding to final database dump
+0049.300 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_positions.table.gz (27/65): adding to final database dump
+0049.316 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_status.table.gz (28/65): adding to final database dump
+0049.333 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_translations.table.gz (29/65): adding to final database dump
+0049.350 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_string_urls.table.gz (30/65): adding to final database dump
+0049.367 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_strings.table.gz (31/65): adding to final database dump
+0049.383 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translate.table.gz (32/65): adding to final database dump
+0049.406 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translate_job.table.gz (33/65): adding to final database dump
+0049.425 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translation_batches.table.gz (34/65): adding to final database dump
+0049.450 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translation_downloads.table.gz (35/65): adding to final database dump
+0049.475 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translation_status.table.gz (36/65): adding to final database dump
+0049.501 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_icl_translations.table.gz (37/65): adding to final database dump
+0049.526 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_redirects.table.gz (38/65): adding to final database dump
+0049.549 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfblockediplog.table.gz (39/65): adding to final database dump
+0049.568 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfblocks7.table.gz (40/65): adding to final database dump
+0049.590 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfconfig.table.gz (41/65): adding to final database dump
+0049.639 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfcrawlers.table.gz (42/65): adding to final database dump
+0049.659 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wffilechanges.table.gz (43/65): adding to final database dump
+0049.675 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wffilemods.table.gz (44/65): adding to final database dump
+0049.751 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfhits.table.gz (45/65): adding to final database dump
+0049.778 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfhoover.table.gz (46/65): adding to final database dump
+0049.801 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfissues.table.gz (47/65): adding to final database dump
+0049.824 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfknownfilelist.table.gz (48/65): adding to final database dump
+0049.863 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wflivetraffichuman.table.gz (49/65): adding to final database dump
+0049.884 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wflocs.table.gz (50/65): adding to final database dump
+0049.909 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wflogins.table.gz (51/65): adding to final database dump
+0049.941 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfls_2fa_secrets.table.gz (52/65): adding to final database dump
+0049.959 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfls_settings.table.gz (53/65): adding to final database dump
+0049.982 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfnotifications.table.gz (54/65): adding to final database dump
+0050.001 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfpendingissues.table.gz (55/65): adding to final database dump
+0050.024 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfreversecache.table.gz (56/65): adding to final database dump
+0050.043 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfsnipcache.table.gz (57/65): adding to final database dump
+0050.066 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wfstatus.table.gz (58/65): adding to final database dump
+0050.090 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wftrafficrates.table.gz (59/65): adding to final database dump
+0050.108 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_wpfm_backup.table.gz (60/65): adding to final database dump
+0050.124 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_indexable.table.gz (61/65): adding to final database dump
+0050.156 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_indexable_hierarchy.table.gz (62/65): adding to final database dump
+0050.175 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_migrations.table.gz (63/65): adding to final database dump
+0050.191 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_primary_term.table.gz (64/65): adding to final database dump
+0050.208 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db-table-wp_63avey_yoast_seo_links.table.gz (65/65): adding to final database dump
+0050.225 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db.gz: finished writing out complete database file (2160 KB)
+0050.352 (0) Total database tables backed up: 65 (backup_2022-03-10-1204_Campus_M_58cab3250a56-db.gz, size: 2225456, sha256)
+0050.442 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0050.459 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0050.484 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-themes2.zip: themes: This file has not yet been successfully uploaded: will queue
+0050.509 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.527 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.551 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.569 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads4.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.592 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads5.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.611 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads6.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.634 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads7.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.652 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads8.zip: uploads: This file has not yet been successfully uploaded: will queue
+0050.676 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-others.zip: others: This file has not yet been successfully uploaded: will queue
+0050.694 (0) backup_2022-03-10-1204_Campus_M_58cab3250a56-db.gz: db: This file has not yet been successfully uploaded: will queue
+0050.718 (0) Saving backup history. Total backup size: 252.9 MB
+0050.760 (0) Requesting upload of the files that have not yet been successfully uploaded (13)
+0050.819 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0050.843 (0) No remote despatch: user chose no remote backup service
+0050.861 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-plugins.zip
+0050.903 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-themes.zip
+0050.943 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-themes2.zip
+0050.993 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads.zip
+0051.035 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads2.zip
+0051.077 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads3.zip
+0051.119 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads4.zip
+0051.160 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads5.zip
+0051.202 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads6.zip
+0051.245 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads7.zip
+0051.287 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-uploads8.zip
+0051.329 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-others.zip
+0051.371 (0) Recording as successfully uploaded: backup_2022-03-10-1204_Campus_M_58cab3250a56-db.gz
+0051.412 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0051.436 (0) Resume backup (58cab3250a56, 0): finish run
+0051.494 (0) Decremented the semaphore (fd) by 1
+0051.528 (0) Semaphore (fd) unlocked
+0051.544 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0051.603 (0) No email will/can be sent - the user has not configured an email address.
+0051.621 (0) The backup apparently succeeded and is now complete

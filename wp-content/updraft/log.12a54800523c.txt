@@ -1,0 +1,290 @@
+0000.000 (0) Opened log file at time: Thu, 10 Mar 2022 00:03:19 +0000 on https://campusm.exlibrisgroup.com
+0000.023 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.24 WP: 5.9.1 PHP: 7.4.14 (cgi-fcgi, Linux ds12916 5.4.32-grsec-grsec.virt+ #1 SMP Sat Apr 18 00:33:59 UTC 2020 x86_64) MySQL: 5.7.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 59.5M | 62.5M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.048 (0) Free space on disk containing Updraft's temporary directory: 896202.4 MB
+0000.075 (0) Tasks: Backup files:  (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.098 (0) Processed schedules. Tasks now: Backup files:  Backup DB: 1
+0000.148 (0) Requesting semaphore lock (d) (apparently via scheduler: last_scheduled_action_called_at=1646784623, seconds_ago=85976)
+0000.225 (0) Set semaphore last lock (d) time to 2022-03-10 00:03:19
+0000.242 (0) Semaphore lock (d) complete
+0000.292 (0) Backup run: resumption=0, nonce=12a54800523c, begun at=1646870599 (0s ago), job type=backup
+0000.309 (0) Scheduling a resumption (1) after 300 seconds (1646870899) in case this run gets aborted
+0000.343 (0) This backup run is not intended for files - skipping
+0000.359 (0) Beginning creation of database dump (WordPress DB)
+0000.393 (0) Testing: /usr/bin/mysqldump
+0000.501 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_63avey_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8  (truncated - 1269 bytes total)
+0000.518 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.777 (0) Table wp_63avey_options: Total expected rows (approximate): 503
+0000.867 (0) Table wp_63avey_options: Total rows added: 509 in 0.07 seconds
+0000.885 (0) Table wp_63avey_options: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_options.table.gz - 436.1 KB)
+0000.952 (0) Table wp_63avey_users: Total expected rows (approximate): 5
+0000.972 (0) Table wp_63avey_users: Total rows added: 5 in 0.00 seconds
+0000.985 (0) Table wp_63avey_users: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_users.table.gz - 0.9 KB)
+0001.036 (0) Table wp_63avey_usermeta: Total expected rows (approximate): 197
+0001.058 (0) Table wp_63avey_usermeta: Total rows added: 197 in 0.01 seconds
+0001.077 (0) Table wp_63avey_usermeta: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_usermeta.table.gz - 5.9 KB)
+0001.128 (0) Table wp_63avey_commentmeta: Total expected rows (approximate): 0
+0001.166 (0) Table wp_63avey_commentmeta: Total rows added: 0 in 0.02 seconds
+0001.186 (0) Table wp_63avey_commentmeta: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_commentmeta.table.gz - 0.4 KB)
+0001.237 (0) Table wp_63avey_comments: Total expected rows (approximate): 0
+0001.256 (0) Table wp_63avey_comments: Total rows added: 0 in 0.00 seconds
+0001.278 (0) Table wp_63avey_comments: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_comments.table.gz - 0.5 KB)
+0001.329 (0) Table wp_63avey_links: Total expected rows (approximate): 0
+0001.368 (0) Table wp_63avey_links: Total rows added: 0 in 0.02 seconds
+0001.387 (0) Table wp_63avey_links: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_links.table.gz - 0.4 KB)
+0001.444 (0) Table wp_63avey_postmeta: Total expected rows (approximate): 24172
+0001.683 (0) Table wp_63avey_postmeta: binary mysqldump finished (writes: 34) in 0.22 seconds
+0001.713 (0) Table wp_63avey_postmeta: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_postmeta.table.gz - 366.1 KB)
+0001.778 (0) Table wp_63avey_posts: Total expected rows (approximate): 777
+0001.836 (0) Table wp_63avey_posts: Total rows added: 771 in 0.04 seconds
+0001.863 (0) Table wp_63avey_posts: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_posts.table.gz - 60.1 KB)
+0001.928 (0) Table wp_63avey_term_relationships: Total expected rows (approximate): 97
+0001.950 (0) Table wp_63avey_term_relationships: Total rows added: 97 in 0.00 seconds
+0001.971 (0) Table wp_63avey_term_relationships: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_term_relationships.table.gz - 0.7 KB)
+0002.037 (0) Table wp_63avey_term_taxonomy: Total expected rows (approximate): 31
+0002.058 (0) Table wp_63avey_term_taxonomy: Total rows added: 31 in 0.00 seconds
+0002.080 (0) Table wp_63avey_term_taxonomy: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_term_taxonomy.table.gz - 0.7 KB)
+0002.231 (0) Table wp_63avey_termmeta: Total expected rows (approximate): 16
+0002.257 (0) Table wp_63avey_termmeta: Total rows added: 16 in 0.00 seconds
+0002.278 (0) Table wp_63avey_termmeta: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_termmeta.table.gz - 0.5 KB)
+0002.339 (0) Table wp_63avey_terms: Total expected rows (approximate): 31
+0002.365 (0) Table wp_63avey_terms: Total rows added: 31 in 0.00 seconds
+0002.387 (0) Table wp_63avey_terms: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_terms.table.gz - 0.8 KB)
+0002.440 (0) Table wp_63avey_db7_forms: Total expected rows (approximate): 0
+0002.460 (0) Table wp_63avey_db7_forms: Total rows added: 0 in 0.00 seconds
+0002.481 (0) Table wp_63avey_db7_forms: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_db7_forms.table.gz - 0.3 KB)
+0002.532 (0) Table wp_63avey_icl_content_status: Total expected rows (approximate): 0
+0002.552 (0) Table wp_63avey_icl_content_status: Total rows added: 0 in 0.00 seconds
+0002.571 (0) Table wp_63avey_icl_content_status: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_content_status.table.gz - 0.3 KB)
+0002.657 (0) Table wp_63avey_icl_core_status: Total expected rows (approximate): 0
+0002.677 (0) Table wp_63avey_icl_core_status: Total rows added: 0 in 0.00 seconds
+0002.696 (0) Table wp_63avey_icl_core_status: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_core_status.table.gz - 0.4 KB)
+0002.758 (0) Table wp_63avey_icl_flags: Total expected rows (approximate): 65
+0002.784 (0) Table wp_63avey_icl_flags: Total rows added: 65 in 0.01 seconds
+0002.805 (0) Table wp_63avey_icl_flags: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_flags.table.gz - 0.9 KB)
+0002.881 (0) Table wp_63avey_icl_languages: Total expected rows (approximate): 65
+0002.967 (0) Table wp_63avey_icl_languages: Total rows added: 65 in 0.01 seconds
+0002.988 (0) Table wp_63avey_icl_languages: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_languages.table.gz - 1.6 KB)
+0003.050 (0) Table wp_63avey_icl_languages_translations: Total expected rows (approximate): 4225
+0003.149 (0) Table wp_63avey_icl_languages_translations: Total rows added: 4225 in 0.08 seconds
+0003.172 (0) Table wp_63avey_icl_languages_translations: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_languages_translations.table.gz - 34.8 KB)
+0003.234 (0) Table wp_63avey_icl_locale_map: Total expected rows (approximate): 3
+0003.272 (0) Table wp_63avey_icl_locale_map: Total rows added: 3 in 0.02 seconds
+0003.300 (0) Table wp_63avey_icl_locale_map: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_locale_map.table.gz - 0.3 KB)
+0003.365 (0) Table wp_63avey_icl_message_status: Total expected rows (approximate): 0
+0003.398 (0) Table wp_63avey_icl_message_status: Total rows added: 0 in 0.01 seconds
+0003.453 (0) Table wp_63avey_icl_message_status: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_message_status.table.gz - 0.4 KB)
+0003.526 (0) Table wp_63avey_icl_mo_files_domains: Total expected rows (approximate): 86
+0003.553 (0) Table wp_63avey_icl_mo_files_domains: Total rows added: 86 in 0.01 seconds
+0003.573 (0) Table wp_63avey_icl_mo_files_domains: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_mo_files_domains.table.gz - 4.3 KB)
+0003.635 (0) Table wp_63avey_icl_node: Total expected rows (approximate): 0
+0003.660 (0) Table wp_63avey_icl_node: Total rows added: 0 in 0.00 seconds
+0003.681 (0) Table wp_63avey_icl_node: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_node.table.gz - 0.3 KB)
+0003.749 (0) Table wp_63avey_icl_reminders: Total expected rows (approximate): 0
+0003.777 (0) Table wp_63avey_icl_reminders: Total rows added: 0 in 0.00 seconds
+0003.798 (0) Table wp_63avey_icl_reminders: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_reminders.table.gz - 0.3 KB)
+0003.891 (0) Table wp_63avey_icl_string_batches: Total expected rows (approximate): 0
+0003.919 (0) Table wp_63avey_icl_string_batches: Total rows added: 0 in 0.00 seconds
+0003.935 (0) Table wp_63avey_icl_string_batches: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_batches.table.gz - 0.3 KB)
+0004.011 (0) Table wp_63avey_icl_string_packages: Total expected rows (approximate): 0
+0004.031 (0) Table wp_63avey_icl_string_packages: Total rows added: 0 in 0.00 seconds
+0004.052 (0) Table wp_63avey_icl_string_packages: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_packages.table.gz - 0.4 KB)
+0004.103 (0) Table wp_63avey_icl_string_pages: Total expected rows (approximate): 0
+0004.124 (0) Table wp_63avey_icl_string_pages: Total rows added: 0 in 0.00 seconds
+0004.144 (0) Table wp_63avey_icl_string_pages: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_pages.table.gz - 0.3 KB)
+0004.195 (0) Table wp_63avey_icl_string_positions: Total expected rows (approximate): 0
+0004.215 (0) Table wp_63avey_icl_string_positions: Total rows added: 0 in 0.00 seconds
+0004.236 (0) Table wp_63avey_icl_string_positions: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_positions.table.gz - 0.4 KB)
+0004.287 (0) Table wp_63avey_icl_string_status: Total expected rows (approximate): 0
+0004.307 (0) Table wp_63avey_icl_string_status: Total rows added: 0 in 0.00 seconds
+0004.328 (0) Table wp_63avey_icl_string_status: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_status.table.gz - 0.4 KB)
+0004.379 (0) Table wp_63avey_icl_string_translations: Total expected rows (approximate): 0
+0004.399 (0) Table wp_63avey_icl_string_translations: Total rows added: 0 in 0.00 seconds
+0004.420 (0) Table wp_63avey_icl_string_translations: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_translations.table.gz - 0.5 KB)
+0004.485 (0) Table wp_63avey_icl_string_urls: Total expected rows (approximate): 0
+0004.508 (0) Table wp_63avey_icl_string_urls: Total rows added: 0 in 0.00 seconds
+0004.529 (0) Table wp_63avey_icl_string_urls: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_urls.table.gz - 0.4 KB)
+0004.594 (0) Table wp_63avey_icl_strings: Total expected rows (approximate): 34
+0004.617 (0) Table wp_63avey_icl_strings: Total rows added: 34 in 0.01 seconds
+0004.638 (0) Table wp_63avey_icl_strings: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_strings.table.gz - 2 KB)
+0004.703 (0) Table wp_63avey_icl_translate: Total expected rows (approximate): 8
+0004.726 (0) Table wp_63avey_icl_translate: Total rows added: 8 in 0.00 seconds
+0004.746 (0) Table wp_63avey_icl_translate: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translate.table.gz - 0.6 KB)
+0004.811 (0) Table wp_63avey_icl_translate_job: Total expected rows (approximate): 2
+0004.835 (0) Table wp_63avey_icl_translate_job: Total rows added: 2 in 0.01 seconds
+0004.855 (0) Table wp_63avey_icl_translate_job: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translate_job.table.gz - 0.5 KB)
+0004.923 (0) Table wp_63avey_icl_translation_batches: Total expected rows (approximate): 0
+0004.965 (0) Table wp_63avey_icl_translation_batches: Total rows added: 1 in 0.02 seconds
+0004.989 (0) Table wp_63avey_icl_translation_batches: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translation_batches.table.gz - 0.4 KB)
+0005.054 (0) Table wp_63avey_icl_translation_downloads: Total expected rows (approximate): 0
+0005.076 (0) Table wp_63avey_icl_translation_downloads: Total rows added: 0 in 0.00 seconds
+0005.098 (0) Table wp_63avey_icl_translation_downloads: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translation_downloads.table.gz - 0.3 KB)
+0005.162 (0) Table wp_63avey_icl_translation_status: Total expected rows (approximate): 114
+0005.198 (0) Table wp_63avey_icl_translation_status: Total rows added: 114 in 0.02 seconds
+0005.220 (0) Table wp_63avey_icl_translation_status: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translation_status.table.gz - 1.9 KB)
+0005.271 (0) Table wp_63avey_icl_translations: Total expected rows (approximate): 218
+0005.296 (0) Table wp_63avey_icl_translations: Total rows added: 218 in 0.01 seconds
+0005.312 (0) Table wp_63avey_icl_translations: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translations.table.gz - 2.3 KB)
+0005.375 (0) Table wp_63avey_redirects: Total expected rows (approximate): 4
+0005.399 (0) Table wp_63avey_redirects: Total rows added: 4 in 0.00 seconds
+0005.415 (0) Table wp_63avey_redirects: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_redirects.table.gz - 0.4 KB)
+0005.480 (0) Table wp_63avey_wfblockediplog: Total expected rows (approximate): 292
+0005.503 (0) Table wp_63avey_wfblockediplog: Total rows added: 313 in 0.00 seconds
+0005.521 (0) Table wp_63avey_wfblockediplog: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfblockediplog.table.gz - 2.8 KB)
+0005.580 (0) Table wp_63avey_wfblocks7: Total expected rows (approximate): 0
+0005.602 (0) Table wp_63avey_wfblocks7: Total rows added: 0 in 0.00 seconds
+0005.621 (0) Table wp_63avey_wfblocks7: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfblocks7.table.gz - 0.4 KB)
+0005.684 (0) Table wp_63avey_wfconfig: Total expected rows (approximate): 259
+0005.735 (0) Table wp_63avey_wfconfig: Total rows added: 261 in 0.03 seconds
+0005.755 (0) Table wp_63avey_wfconfig: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfconfig.table.gz - 406.5 KB)
+0005.818 (0) Table wp_63avey_wfcrawlers: Total expected rows (approximate): 19
+0005.842 (0) Table wp_63avey_wfcrawlers: Total rows added: 19 in 0.00 seconds
+0005.864 (0) Table wp_63avey_wfcrawlers: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfcrawlers.table.gz - 0.8 KB)
+0005.926 (0) Table wp_63avey_wffilechanges: Total expected rows (approximate): 0
+0005.951 (0) Table wp_63avey_wffilechanges: Total rows added: 0 in 0.00 seconds
+0005.972 (0) Table wp_63avey_wffilechanges: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wffilechanges.table.gz - 0.3 KB)
+0006.035 (0) Table wp_63avey_wffilemods: Total expected rows (approximate): 7211
+0006.194 (0) Table wp_63avey_wffilemods: Total rows added: 7505 in 0.14 seconds
+0006.215 (0) Table wp_63avey_wffilemods: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wffilemods.table.gz - 649.2 KB)
+0006.277 (0) Table wp_63avey_wfhits: Total expected rows (approximate): 625
+0006.338 (0) Table wp_63avey_wfhits: Total rows added: 664 in 0.04 seconds
+0006.360 (0) Table wp_63avey_wfhits: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfhits.table.gz - 27.8 KB)
+0006.432 (0) Table wp_63avey_wfhoover: Total expected rows (approximate): 0
+0006.459 (0) Table wp_63avey_wfhoover: Total rows added: 0 in 0.00 seconds
+0006.477 (0) Table wp_63avey_wfhoover: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfhoover.table.gz - 0.3 KB)
+0006.528 (0) Table wp_63avey_wfissues: Total expected rows (approximate): 6
+0006.547 (0) Table wp_63avey_wfissues: Total rows added: 6 in 0.00 seconds
+0006.569 (0) Table wp_63avey_wfissues: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfissues.table.gz - 2.2 KB)
+0006.620 (0) Table wp_63avey_wfknownfilelist: Total expected rows (approximate): 7249
+0006.707 (0) Table wp_63avey_wfknownfilelist: Total rows added: 7505 in 0.07 seconds
+0006.728 (0) Table wp_63avey_wfknownfilelist: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfknownfilelist.table.gz - 72.2 KB)
+0006.778 (0) Table wp_63avey_wflivetraffichuman: Total expected rows (approximate): 0
+0006.797 (0) Table wp_63avey_wflivetraffichuman: Total rows added: 0 in 0.00 seconds
+0006.819 (0) Table wp_63avey_wflivetraffichuman: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wflivetraffichuman.table.gz - 0.3 KB)
+0006.871 (0) Table wp_63avey_wflocs: Total expected rows (approximate): 0
+0006.895 (0) Table wp_63avey_wflocs: Total rows added: 1 in 0.00 seconds
+0006.911 (0) Table wp_63avey_wflocs: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wflocs.table.gz - 0.5 KB)
+0006.971 (0) Table wp_63avey_wflogins: Total expected rows (approximate): 786
+0007.007 (0) Table wp_63avey_wflogins: Total rows added: 884 in 0.02 seconds
+0007.025 (0) Table wp_63avey_wflogins: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wflogins.table.gz - 19.9 KB)
+0007.088 (0) Table wp_63avey_wfls_2fa_secrets: Total expected rows (approximate): 0
+0007.130 (0) Table wp_63avey_wfls_2fa_secrets: Total rows added: 0 in 0.02 seconds
+0007.154 (0) Table wp_63avey_wfls_2fa_secrets: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfls_2fa_secrets.table.gz - 0.4 KB)
+0007.218 (0) Table wp_63avey_wfls_settings: Total expected rows (approximate): 23
+0007.241 (0) Table wp_63avey_wfls_settings: Total rows added: 23 in 0.00 seconds
+0007.259 (0) Table wp_63avey_wfls_settings: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfls_settings.table.gz - 0.8 KB)
+0007.322 (0) Table wp_63avey_wfnotifications: Total expected rows (approximate): 11
+0007.346 (0) Table wp_63avey_wfnotifications: Total rows added: 13 in 0.00 seconds
+0007.363 (0) Table wp_63avey_wfnotifications: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfnotifications.table.gz - 1.1 KB)
+0007.427 (0) Table wp_63avey_wfpendingissues: Total expected rows (approximate): 0
+0007.450 (0) Table wp_63avey_wfpendingissues: Total rows added: 0 in 0.00 seconds
+0007.468 (0) Table wp_63avey_wfpendingissues: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfpendingissues.table.gz - 0.4 KB)
+0007.531 (0) Table wp_63avey_wfreversecache: Total expected rows (approximate): 2
+0007.555 (0) Table wp_63avey_wfreversecache: Total rows added: 2 in 0.00 seconds
+0007.577 (0) Table wp_63avey_wfreversecache: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfreversecache.table.gz - 0.4 KB)
+0007.640 (0) Table wp_63avey_wfsnipcache: Total expected rows (approximate): 0
+0007.663 (0) Table wp_63avey_wfsnipcache: Total rows added: 0 in 0.00 seconds
+0007.686 (0) Table wp_63avey_wfsnipcache: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfsnipcache.table.gz - 0.4 KB)
+0007.749 (0) Table wp_63avey_wfstatus: Total expected rows (approximate): 1307
+0007.783 (0) Table wp_63avey_wfstatus: Total rows added: 1307 in 0.01 seconds
+0007.803 (0) Table wp_63avey_wfstatus: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfstatus.table.gz - 23 KB)
+0007.854 (0) Table wp_63avey_wftrafficrates: Total expected rows (approximate): 0
+0007.872 (0) Table wp_63avey_wftrafficrates: Total rows added: 0 in 0.00 seconds
+0007.886 (0) Table wp_63avey_wftrafficrates: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wftrafficrates.table.gz - 0.3 KB)
+0007.941 (0) Table wp_63avey_wpfm_backup: Total expected rows (approximate): 0
+0007.965 (0) Table wp_63avey_wpfm_backup: Total rows added: 0 in 0.00 seconds
+0007.982 (0) Table wp_63avey_wpfm_backup: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wpfm_backup.table.gz - 0.3 KB)
+0008.050 (0) Table wp_63avey_yoast_indexable: Total expected rows (approximate): 552
+0008.094 (0) Table wp_63avey_yoast_indexable: Total rows added: 552 in 0.02 seconds
+0008.112 (0) Table wp_63avey_yoast_indexable: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_indexable.table.gz - 39 KB)
+0008.171 (0) Table wp_63avey_yoast_indexable_hierarchy: Total expected rows (approximate): 513
+0008.195 (0) Table wp_63avey_yoast_indexable_hierarchy: Total rows added: 513 in 0.00 seconds
+0008.213 (0) Table wp_63avey_yoast_indexable_hierarchy: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_indexable_hierarchy.table.gz - 1.8 KB)
+0008.276 (0) Table wp_63avey_yoast_migrations: Total expected rows (approximate): 23
+0008.313 (0) Table wp_63avey_yoast_migrations: Total rows added: 23 in 0.02 seconds
+0008.338 (0) Table wp_63avey_yoast_migrations: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_migrations.table.gz - 0.6 KB)
+0008.401 (0) Table wp_63avey_yoast_primary_term: Total expected rows (approximate): 17
+0008.426 (0) Table wp_63avey_yoast_primary_term: Total rows added: 17 in 0.00 seconds
+0008.447 (0) Table wp_63avey_yoast_primary_term: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_primary_term.table.gz - 0.8 KB)
+0008.510 (0) Table wp_63avey_yoast_seo_links: Total expected rows (approximate): 26
+0008.535 (0) Table wp_63avey_yoast_seo_links: Total rows added: 29 in 0.00 seconds
+0008.556 (0) Table wp_63avey_yoast_seo_links: finishing file (backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_seo_links.table.gz - 1.5 KB)
+0008.598 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_options.table.gz (1/65): adding to final database dump
+0008.688 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_users.table.gz (2/65): adding to final database dump
+0008.706 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_usermeta.table.gz (3/65): adding to final database dump
+0008.728 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_commentmeta.table.gz (4/65): adding to final database dump
+0008.748 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_comments.table.gz (5/65): adding to final database dump
+0008.768 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_links.table.gz (6/65): adding to final database dump
+0008.789 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_postmeta.table.gz (7/65): adding to final database dump
+0008.879 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_posts.table.gz (8/65): adding to final database dump
+0008.913 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_term_relationships.table.gz (9/65): adding to final database dump
+0008.931 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_term_taxonomy.table.gz (10/65): adding to final database dump
+0008.952 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_termmeta.table.gz (11/65): adding to final database dump
+0008.973 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_terms.table.gz (12/65): adding to final database dump
+0008.993 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_db7_forms.table.gz (13/65): adding to final database dump
+0009.014 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_content_status.table.gz (14/65): adding to final database dump
+0009.035 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_core_status.table.gz (15/65): adding to final database dump
+0009.057 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_flags.table.gz (16/65): adding to final database dump
+0009.077 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_languages.table.gz (17/65): adding to final database dump
+0009.098 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_languages_translations.table.gz (18/65): adding to final database dump
+0009.135 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_locale_map.table.gz (19/65): adding to final database dump
+0009.156 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_message_status.table.gz (20/65): adding to final database dump
+0009.181 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_mo_files_domains.table.gz (21/65): adding to final database dump
+0009.207 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_node.table.gz (22/65): adding to final database dump
+0009.227 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_reminders.table.gz (23/65): adding to final database dump
+0009.248 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_batches.table.gz (24/65): adding to final database dump
+0009.273 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_packages.table.gz (25/65): adding to final database dump
+0009.298 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_pages.table.gz (26/65): adding to final database dump
+0009.323 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_positions.table.gz (27/65): adding to final database dump
+0009.348 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_status.table.gz (28/65): adding to final database dump
+0009.369 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_translations.table.gz (29/65): adding to final database dump
+0009.386 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_string_urls.table.gz (30/65): adding to final database dump
+0009.402 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_strings.table.gz (31/65): adding to final database dump
+0009.420 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translate.table.gz (32/65): adding to final database dump
+0009.436 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translate_job.table.gz (33/65): adding to final database dump
+0009.453 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translation_batches.table.gz (34/65): adding to final database dump
+0009.469 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translation_downloads.table.gz (35/65): adding to final database dump
+0009.486 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translation_status.table.gz (36/65): adding to final database dump
+0009.503 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_icl_translations.table.gz (37/65): adding to final database dump
+0009.520 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_redirects.table.gz (38/65): adding to final database dump
+0009.536 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfblockediplog.table.gz (39/65): adding to final database dump
+0009.554 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfblocks7.table.gz (40/65): adding to final database dump
+0009.570 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfconfig.table.gz (41/65): adding to final database dump
+0009.615 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfcrawlers.table.gz (42/65): adding to final database dump
+0009.632 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wffilechanges.table.gz (43/65): adding to final database dump
+0009.649 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wffilemods.table.gz (44/65): adding to final database dump
+0009.727 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfhits.table.gz (45/65): adding to final database dump
+0009.755 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfhoover.table.gz (46/65): adding to final database dump
+0009.775 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfissues.table.gz (47/65): adding to final database dump
+0009.795 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfknownfilelist.table.gz (48/65): adding to final database dump
+0009.833 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wflivetraffichuman.table.gz (49/65): adding to final database dump
+0009.853 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wflocs.table.gz (50/65): adding to final database dump
+0009.870 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wflogins.table.gz (51/65): adding to final database dump
+0009.900 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfls_2fa_secrets.table.gz (52/65): adding to final database dump
+0009.920 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfls_settings.table.gz (53/65): adding to final database dump
+0009.942 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfnotifications.table.gz (54/65): adding to final database dump
+0009.962 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfpendingissues.table.gz (55/65): adding to final database dump
+0009.984 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfreversecache.table.gz (56/65): adding to final database dump
+0010.004 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfsnipcache.table.gz (57/65): adding to final database dump
+0010.026 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wfstatus.table.gz (58/65): adding to final database dump
+0010.053 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wftrafficrates.table.gz (59/65): adding to final database dump
+0010.071 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_wpfm_backup.table.gz (60/65): adding to final database dump
+0010.093 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_indexable.table.gz (61/65): adding to final database dump
+0010.124 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_indexable_hierarchy.table.gz (62/65): adding to final database dump
+0010.143 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_migrations.table.gz (63/65): adding to final database dump
+0010.162 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_primary_term.table.gz (64/65): adding to final database dump
+0010.184 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db-table-wp_63avey_yoast_seo_links.table.gz (65/65): adding to final database dump
+0010.205 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db.gz: finished writing out complete database file (2160 KB)
+0010.338 (0) Total database tables backed up: 65 (backup_2022-03-10-0003_Campus_M_12a54800523c-db.gz, size: 2224159, sha256)
+0010.422 (0) backup_2022-03-10-0003_Campus_M_12a54800523c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.443 (0) Saving backup history. Total backup size: 2.1 MB
+0010.485 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0010.547 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0010.569 (0) No remote despatch: user chose no remote backup service
+0010.589 (0) Recording as successfully uploaded: backup_2022-03-10-0003_Campus_M_12a54800523c-db.gz
+0010.630 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0010.652 (0) Resume backup (12a54800523c, 0): finish run
+0010.714 (0) Decremented the semaphore (d) by 1
+0010.755 (0) Semaphore (d) unlocked
+0010.777 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0010.839 (0) No email will/can be sent - the user has not configured an email address.
+0010.861 (0) The backup apparently succeeded and is now complete

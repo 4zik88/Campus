@@ -1,0 +1,246 @@
+0000.058 () Opened log file at time: Sun, 20 Feb 2022 10:50:42 +0000 on https://campusm.exlibrisgroup.com
+0000.058 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.24 WP: 5.9 PHP: 7.4.14 (cgi-fcgi, Linux ds12916 5.4.32-grsec-grsec.virt+ #1 SMP Sat Apr 18 00:33:59 UTC 2020 x86_64) MySQL: 5.7.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.6M | 34.5M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.058 () Free space on disk containing Updraft's temporary directory: 896796.3 MB
+0000.074 () Restore job started. Entities to restore: db. Restore options: {"updraft_restorer_replacesiteurl":"1","updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.091 () PHP event: code E_WARNING: Declaration of Updraft_Restorer_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($feedback, ...$args) (line 33, wp-content/plugins/updraftplus/includes/updraft-restorer-skin.php)
+0000.095 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.158 () Entity: db
+0000.158 () restore_backup(backup_file=backup_2022-02-20-0821_Campus_M_e1a93a1609d9-db.gz, type=db, info=a:0:{}, last_one=1)
+0000.158 () Unpacking backup... (backup_2022-02-20-0821_Campus_M_e1a93a1609d9-db.gz, 2.3 Mb)
+0000.162 () Database successfully unpacked
+0000.163 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.163 () Using direct MySQL access; value of use_mysqli is: 1
+0000.476 () Tried to raise max_allowed_packet from 16 MB to 32 MB, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.476 () Max packet size: 16 MB
+0000.476 () Entering maintenance mode
+0000.476 () Enabling Maintenance mode&#8230;
+0000.477 () Backup of: https://dev.lm-studio.co.il/devcampusm
+0000.493 () Content URL: https://dev.lm-studio.co.il/devcampusm/wp-content
+0000.493 () Uploads URL: https://dev.lm-studio.co.il/devcampusm/wp-content/uploads
+0000.493 () Old table prefix: 1CVg6Yi_
+0000.493 () Site information: multisite=0
+0000.502 () New table prefix: wp_63avey_
+0000.614 () Processing table (InnoDB): 1CVg6Yi_options - will restore as: wp_63avey_options
+0003.185 () Restoring prior UD configuration (table: wp_63avey_options; keys: 93)
+0007.562 () Table prefix has changed: changing options table field(s) accordingly (options)
+0007.579 () Options table fields changed OK
+0007.587 () Search and replacing table: wp_63avey_options: rows: 525
+0007.671 () Incomplete object detected in database: WPML_LS_Footer_Slot; Search and replace will be skipped for these entries
+0007.672 () Incomplete object detected in database: WPML_LS_Post_Translations_Slot; Search and replace will be skipped for these entries
+0007.672 () Incomplete object detected in database: WPML_LS_Shortcode_Actions_Slot; Search and replace will be skipped for these entries
+0007.673 () Incomplete object detected in database: WPML_TP_Service; Search and replace will be skipped for these entries
+0007.675 () Incomplete object detected in database: WPML_Notice; Search and replace will be skipped for these entries
+0008.257 () Processing table (InnoDB): 1CVg6Yi_users - will restore as: wp_63avey_users
+0008.640 () Search and replacing table: wp_63avey_users: rows: 5
+0008.655 () Processing table (InnoDB): 1CVg6Yi_usermeta - will restore as: wp_63avey_usermeta
+0009.123 () Table prefix has changed: changing usermeta table field(s) accordingly
+0009.139 () Usermeta table fields changed OK
+0009.141 () Search and replacing table: wp_63avey_usermeta: rows: 193
+0009.215 () Incomplete object detected in database: Yoast\WP\SEO\Presenters\Admin\Indexing_Notification_Presenter; Search and replace will be skipped for these entries
+0009.231 () Processing table (InnoDB): 1CVg6Yi_commentmeta - will restore as: wp_63avey_commentmeta
+0009.518 () Search and replacing table: wp_63avey_commentmeta: rows: 0
+0009.519 () Processing table (InnoDB): 1CVg6Yi_comments - will restore as: wp_63avey_comments
+0009.944 () Search and replacing table: wp_63avey_comments: rows: 0
+0009.945 () Processing table (InnoDB): 1CVg6Yi_links - will restore as: wp_63avey_links
+0010.220 () Search and replacing table: wp_63avey_links: rows: 0
+0010.220 () Processing table (InnoDB): 1CVg6Yi_postmeta - will restore as: wp_63avey_postmeta
+0014.697 () Search and replacing table: wp_63avey_postmeta: rows: 898
+0014.740 () Database queries processed: 50 in 14.56 seconds
+0019.225 () Processing table (InnoDB): 1CVg6Yi_posts - will restore as: wp_63avey_posts
+0020.563 () Skipping search/replace on GUID column in posts table
+0020.564 () Search and replacing table: wp_63avey_posts: rows: 740
+0020.762 () Processing table (InnoDB): 1CVg6Yi_term_relationships - will restore as: wp_63avey_term_relationships
+0021.096 () Skipping this table: data in this table (wp_63avey_term_relationships) should not be search/replaced
+0021.096 () Processing table (InnoDB): 1CVg6Yi_term_taxonomy - will restore as: wp_63avey_term_taxonomy
+0021.442 () Search and replacing table: wp_63avey_term_taxonomy: rows: 28
+0021.443 () Processing table (InnoDB): 1CVg6Yi_termmeta - will restore as: wp_63avey_termmeta
+0021.826 () Search and replacing table: wp_63avey_termmeta: rows: 16
+0021.827 () Processing table (InnoDB): 1CVg6Yi_terms - will restore as: wp_63avey_terms
+0022.141 () Search and replacing table: wp_63avey_terms: rows: 28
+0022.142 () Processing table (InnoDB): 1CVg6Yi_db7_forms - will restore as: wp_63avey_db7_forms
+0022.331 () Search and replacing table: wp_63avey_db7_forms: rows: 0
+0022.331 () Processing table (InnoDB): 1CVg6Yi_icl_content_status - will restore as: wp_63avey_icl_content_status
+0022.745 () Search and replacing table: wp_63avey_icl_content_status: rows: 0
+0022.746 () Processing table (InnoDB): 1CVg6Yi_icl_core_status - will restore as: wp_63avey_icl_core_status
+0023.021 () Search and replacing table: wp_63avey_icl_core_status: rows: 0
+0023.021 () Processing table (InnoDB): 1CVg6Yi_icl_flags - will restore as: wp_63avey_icl_flags
+0023.319 () Search and replacing table: wp_63avey_icl_flags: rows: 65
+0023.321 () Processing table (InnoDB): 1CVg6Yi_icl_languages - will restore as: wp_63avey_icl_languages
+0023.686 () Search and replacing table: wp_63avey_icl_languages: rows: 65
+0023.690 () Processing table (InnoDB): 1CVg6Yi_icl_languages_translations - will restore as: wp_63avey_icl_languages_translations
+0024.830 () Skipping this table: data in this table (wp_63avey_icl_languages_translations) should not be search/replaced
+0024.830 () Processing table (InnoDB): 1CVg6Yi_icl_locale_map - will restore as: wp_63avey_icl_locale_map
+0025.081 () Search and replacing table: wp_63avey_icl_locale_map: rows: 3
+0025.081 () Processing table (InnoDB): 1CVg6Yi_icl_message_status - will restore as: wp_63avey_icl_message_status
+0025.351 () Search and replacing table: wp_63avey_icl_message_status: rows: 0
+0025.351 () Processing table (InnoDB): 1CVg6Yi_icl_mo_files_domains - will restore as: wp_63avey_icl_mo_files_domains
+0025.674 () Search and replacing table: wp_63avey_icl_mo_files_domains: rows: 86
+0025.680 () Processing table (InnoDB): 1CVg6Yi_icl_node - will restore as: wp_63avey_icl_node
+0025.878 () Search and replacing table: wp_63avey_icl_node: rows: 0
+0025.878 () Processing table (InnoDB): 1CVg6Yi_icl_reminders - will restore as: wp_63avey_icl_reminders
+0026.078 () Search and replacing table: wp_63avey_icl_reminders: rows: 0
+0026.078 () Processing table (InnoDB): 1CVg6Yi_icl_string_batches - will restore as: wp_63avey_icl_string_batches
+0026.326 () Search and replacing table: wp_63avey_icl_string_batches: rows: 0
+0026.326 () Processing table (InnoDB): 1CVg6Yi_icl_string_packages - will restore as: wp_63avey_icl_string_packages
+0026.554 () Search and replacing table: wp_63avey_icl_string_packages: rows: 0
+0026.554 () Processing table (InnoDB): 1CVg6Yi_icl_string_pages - will restore as: wp_63avey_icl_string_pages
+0026.801 () Database queries processed: 100 in 26.62 seconds
+0026.821 () Search and replacing table: wp_63avey_icl_string_pages: rows: 0
+0026.821 () Processing table (InnoDB): 1CVg6Yi_icl_string_positions - will restore as: wp_63avey_icl_string_positions
+0027.011 () Skipping this table: data in this table (wp_63avey_icl_string_positions) should not be search/replaced
+0027.011 () Processing table (InnoDB): 1CVg6Yi_icl_string_status - will restore as: wp_63avey_icl_string_status
+0027.215 () Search and replacing table: wp_63avey_icl_string_status: rows: 0
+0027.215 () Processing table (InnoDB): 1CVg6Yi_icl_string_translations - will restore as: wp_63avey_icl_string_translations
+0027.462 () Skipping this table: data in this table (wp_63avey_icl_string_translations) should not be search/replaced
+0027.462 () Processing table (InnoDB): 1CVg6Yi_icl_string_urls - will restore as: wp_63avey_icl_string_urls
+0027.799 () Search and replacing table: wp_63avey_icl_string_urls: rows: 0
+0027.799 () Processing table (InnoDB): 1CVg6Yi_icl_strings - will restore as: wp_63avey_icl_strings
+0028.247 () Skipping this table: data in this table (wp_63avey_icl_strings) should not be search/replaced
+0028.247 () Processing table (InnoDB): 1CVg6Yi_icl_translate - will restore as: wp_63avey_icl_translate
+0028.598 () Search and replacing table: wp_63avey_icl_translate: rows: 8
+0028.600 () Processing table (InnoDB): 1CVg6Yi_icl_translate_job - will restore as: wp_63avey_icl_translate_job
+0028.874 () Search and replacing table: wp_63avey_icl_translate_job: rows: 2
+0028.875 () Processing table (InnoDB): 1CVg6Yi_icl_translation_batches - will restore as: wp_63avey_icl_translation_batches
+0029.086 () Search and replacing table: wp_63avey_icl_translation_batches: rows: 1
+0029.087 () Processing table (InnoDB): 1CVg6Yi_icl_translation_downloads - will restore as: wp_63avey_icl_translation_downloads
+0029.320 () Search and replacing table: wp_63avey_icl_translation_downloads: rows: 0
+0029.320 () Processing table (InnoDB): 1CVg6Yi_icl_translation_status - will restore as: wp_63avey_icl_translation_status
+0029.710 () Search and replacing table: wp_63avey_icl_translation_status: rows: 114
+0029.784 () Processing table (InnoDB): 1CVg6Yi_icl_translations - will restore as: wp_63avey_icl_translations
+0030.169 () Search and replacing table: wp_63avey_icl_translations: rows: 218
+0030.178 () Processing table (InnoDB): 1CVg6Yi_redirects - will restore as: wp_63avey_redirects
+0030.412 () Search and replacing table: wp_63avey_redirects: rows: 4
+0030.413 () Processing table (InnoDB): 1CVg6Yi_wfblockediplog - will restore as: wp_63avey_wfblockediplog
+0030.737 () Search and replacing table: wp_63avey_wfblockediplog: rows: 60
+0030.740 () Processing table (InnoDB): 1CVg6Yi_wfblocks7 - will restore as: wp_63avey_wfblocks7
+0031.048 () Search and replacing table: wp_63avey_wfblocks7: rows: 0
+0031.048 () Processing table (InnoDB): 1CVg6Yi_wfconfig - will restore as: wp_63avey_wfconfig
+0032.477 () Search and replacing table: wp_63avey_wfconfig: rows: 260
+0032.882 () Processing table (InnoDB): 1CVg6Yi_wfcrawlers - will restore as: wp_63avey_wfcrawlers
+0033.109 () Search and replacing table: wp_63avey_wfcrawlers: rows: 5
+0033.110 () Processing table (InnoDB): 1CVg6Yi_wffilechanges - will restore as: wp_63avey_wffilechanges
+0033.538 () Search and replacing table: wp_63avey_wffilechanges: rows: 0
+0033.538 () Processing table (InnoDB): 1CVg6Yi_wffilemods - will restore as: wp_63avey_wffilemods
+0035.754 () Database queries processed: 150 in 35.58 seconds
+0036.111 () Search and replacing table: wp_63avey_wffilemods: rows: 9212
+0036.265 () Searching and replacing reached row: 5000
+0036.397 () Processing table (InnoDB): 1CVg6Yi_wfhits - will restore as: wp_63avey_wfhits
+0038.713 () Search and replacing table: wp_63avey_wfhits: rows: 1681
+0070.327 () Processing table (InnoDB): 1CVg6Yi_wfhoover - will restore as: wp_63avey_wfhoover
+0070.782 () Search and replacing table: wp_63avey_wfhoover: rows: 0
+0070.782 () Processing table (InnoDB): 1CVg6Yi_wfissues - will restore as: wp_63avey_wfissues
+0071.124 () Search and replacing table: wp_63avey_wfissues: rows: 0
+0071.124 () Processing table (InnoDB): 1CVg6Yi_wfknownfilelist - will restore as: wp_63avey_wfknownfilelist
+0073.330 () Search and replacing table: wp_63avey_wfknownfilelist: rows: 9212
+0073.404 () Searching and replacing reached row: 5000
+0073.468 () Processing table (InnoDB): 1CVg6Yi_wflivetraffichuman - will restore as: wp_63avey_wflivetraffichuman
+0073.720 () Search and replacing table: wp_63avey_wflivetraffichuman: rows: 0
+0073.720 () Processing table (InnoDB): 1CVg6Yi_wflocs - will restore as: wp_63avey_wflocs
+0073.936 () Search and replacing table: wp_63avey_wflocs: rows: 1
+0073.937 () Processing table (InnoDB): 1CVg6Yi_wflogins - will restore as: wp_63avey_wflogins
+0074.589 () Search and replacing table: wp_63avey_wflogins: rows: 706
+0074.623 () Processing table (InnoDB): 1CVg6Yi_wfls_2fa_secrets - will restore as: wp_63avey_wfls_2fa_secrets
+0074.880 () Search and replacing table: wp_63avey_wfls_2fa_secrets: rows: 0
+0074.880 () Processing table (InnoDB): 1CVg6Yi_wfls_settings - will restore as: wp_63avey_wfls_settings
+0075.135 () Search and replacing table: wp_63avey_wfls_settings: rows: 23
+0075.137 () Processing table (InnoDB): 1CVg6Yi_wfnotifications - will restore as: wp_63avey_wfnotifications
+0075.372 () Search and replacing table: wp_63avey_wfnotifications: rows: 11
+0075.593 () Processing table (InnoDB): 1CVg6Yi_wfpendingissues - will restore as: wp_63avey_wfpendingissues
+0075.948 () Search and replacing table: wp_63avey_wfpendingissues: rows: 0
+0075.949 () Processing table (InnoDB): 1CVg6Yi_wfreversecache - will restore as: wp_63avey_wfreversecache
+0076.197 () Search and replacing table: wp_63avey_wfreversecache: rows: 2
+0076.198 () Processing table (InnoDB): 1CVg6Yi_wfsnipcache - will restore as: wp_63avey_wfsnipcache
+0076.555 () Database queries processed: 200 in 76.38 seconds
+0076.559 () Search and replacing table: wp_63avey_wfsnipcache: rows: 0
+0076.559 () Processing table (InnoDB): 1CVg6Yi_wfstatus - will restore as: wp_63avey_wfstatus
+0077.094 () Search and replacing table: wp_63avey_wfstatus: rows: 969
+0077.123 () Processing table (InnoDB): 1CVg6Yi_wftrafficrates - will restore as: wp_63avey_wftrafficrates
+0077.311 () Search and replacing table: wp_63avey_wftrafficrates: rows: 0
+0077.311 () Processing table (InnoDB): 1CVg6Yi_wpfm_backup - will restore as: wp_63avey_wpfm_backup
+0077.570 () Search and replacing table: wp_63avey_wpfm_backup: rows: 0
+0077.570 () Processing table (InnoDB): 1CVg6Yi_yoast_indexable - will restore as: wp_63avey_yoast_indexable
+0078.807 () Search and replacing table: wp_63avey_yoast_indexable: rows: 533
+0090.340 () Processing table (InnoDB): 1CVg6Yi_yoast_indexable_hierarchy - will restore as: wp_63avey_yoast_indexable_hierarchy
+0090.743 () Search and replacing table: wp_63avey_yoast_indexable_hierarchy: rows: 510
+0090.760 () Processing table (InnoDB): 1CVg6Yi_yoast_migrations - will restore as: wp_63avey_yoast_migrations
+0091.027 () Search and replacing table: wp_63avey_yoast_migrations: rows: 23
+0091.028 () Processing table (InnoDB): 1CVg6Yi_yoast_primary_term - will restore as: wp_63avey_yoast_primary_term
+0091.361 () Search and replacing table: wp_63avey_yoast_primary_term: rows: 17
+0091.363 () Processing table (InnoDB): 1CVg6Yi_yoast_seo_links - will restore as: wp_63avey_yoast_seo_links
+0091.678 () Unlocking database and leaving maintenance mode
+0091.678 () Disabling Maintenance mode&#8230;
+0091.712 () Search and replacing table: wp_63avey_yoast_seo_links: rows: 16
+0091.870 () Finished: lines processed: 225 in 91.69 seconds
+0091.871 () Cleaning up rubbish...
+0091.871 () Begin search and replace (updraftplus_restored_db)
+0091.871 () [Database-replace-site-url] Database: search and replace site URL
+0091.873 () Restored pre-migration site ID for this installation
+0091.918 () Database search and replace: replace https://dev.lm-studio.co.il/devcampusm in backup dump with https://campusm.exlibrisgroup.com
+0091.919 () Database search and replace: replace http://dev.lm-studio.co.il/devcampusm in backup dump with https://campusm.exlibrisgroup.com
+0091.920 () Search and replacing table: wp_63avey_commentmeta: already done
+0091.920 () Search and replacing table: wp_63avey_comments: already done
+0091.920 () Search and replacing table: wp_63avey_db7_forms: already done
+0091.920 () Search and replacing table: wp_63avey_icl_content_status: already done
+0091.920 () Search and replacing table: wp_63avey_icl_core_status: already done
+0091.920 () Search and replacing table: wp_63avey_icl_flags: already done
+0091.920 () Search and replacing table: wp_63avey_icl_languages: already done
+0091.920 () Search and replacing table: wp_63avey_icl_languages_translations: already done
+0091.920 () Search and replacing table: wp_63avey_icl_locale_map: already done
+0091.920 () Search and replacing table: wp_63avey_icl_message_status: already done
+0091.920 () Search and replacing table: wp_63avey_icl_mo_files_domains: already done
+0091.920 () Search and replacing table: wp_63avey_icl_node: already done
+0091.920 () Search and replacing table: wp_63avey_icl_reminders: already done
+0091.920 () Search and replacing table: wp_63avey_icl_string_batches: already done
+0091.920 () Search and replacing table: wp_63avey_icl_string_packages: already done
+0091.921 () Search and replacing table: wp_63avey_icl_string_pages: already done
+0091.921 () Search and replacing table: wp_63avey_icl_string_positions: already done
+0091.921 () Search and replacing table: wp_63avey_icl_string_status: already done
+0091.921 () Search and replacing table: wp_63avey_icl_string_translations: already done
+0091.921 () Search and replacing table: wp_63avey_icl_string_urls: already done
+0091.921 () Search and replacing table: wp_63avey_icl_strings: already done
+0091.921 () Search and replacing table: wp_63avey_icl_translate: already done
+0091.921 () Search and replacing table: wp_63avey_icl_translate_job: already done
+0091.921 () Search and replacing table: wp_63avey_icl_translation_batches: already done
+0091.921 () Search and replacing table: wp_63avey_icl_translation_downloads: already done
+0091.921 () Search and replacing table: wp_63avey_icl_translation_status: already done
+0091.921 () Search and replacing table: wp_63avey_icl_translations: already done
+0091.921 () Search and replacing table: wp_63avey_links: already done
+0091.921 () Search and replacing table: wp_63avey_options: already done
+0091.921 () Search and replacing table: wp_63avey_postmeta: already done
+0091.921 () Search and replacing table: wp_63avey_posts: already done
+0091.921 () Search and replacing table: wp_63avey_redirects: already done
+0091.921 () Search and replacing table: wp_63avey_term_relationships: already done
+0091.922 () Search and replacing table: wp_63avey_term_taxonomy: already done
+0091.922 () Search and replacing table: wp_63avey_termmeta: already done
+0091.922 () Search and replacing table: wp_63avey_terms: already done
+0091.922 () Search and replacing table: wp_63avey_usermeta: already done
+0091.922 () Search and replacing table: wp_63avey_users: already done
+0091.922 () Search and replacing table: wp_63avey_wfblockediplog: already done
+0091.922 () Search and replacing table: wp_63avey_wfblocks7: already done
+0091.922 () Search and replacing table: wp_63avey_wfconfig: already done
+0091.922 () Search and replacing table: wp_63avey_wfcrawlers: already done
+0091.922 () Search and replacing table: wp_63avey_wffilechanges: already done
+0091.922 () Search and replacing table: wp_63avey_wffilemods: already done
+0091.922 () Search and replacing table: wp_63avey_wfhits: already done
+0091.922 () Search and replacing table: wp_63avey_wfhoover: already done
+0091.922 () Search and replacing table: wp_63avey_wfissues: already done
+0091.922 () Search and replacing table: wp_63avey_wfknownfilelist: already done
+0091.922 () Search and replacing table: wp_63avey_wflivetraffichuman: already done
+0091.922 () Search and replacing table: wp_63avey_wflocs: already done
+0091.922 () Search and replacing table: wp_63avey_wflogins: already done
+0091.922 () Search and replacing table: wp_63avey_wfls_2fa_secrets: already done
+0091.922 () Search and replacing table: wp_63avey_wfls_settings: already done
+0091.922 () Search and replacing table: wp_63avey_wfnotifications: already done
+0091.923 () Search and replacing table: wp_63avey_wfpendingissues: already done
+0091.923 () Search and replacing table: wp_63avey_wfreversecache: already done
+0091.923 () Search and replacing table: wp_63avey_wfsnipcache: already done
+0091.923 () Search and replacing table: wp_63avey_wfstatus: already done
+0091.923 () Search and replacing table: wp_63avey_wftrafficrates: already done
+0091.923 () Search and replacing table: wp_63avey_wpfm_backup: already done
+0091.923 () Search and replacing table: wp_63avey_yoast_indexable: already done
+0091.923 () Search and replacing table: wp_63avey_yoast_indexable_hierarchy: already done
+0091.923 () Search and replacing table: wp_63avey_yoast_migrations: already done
+0091.923 () Search and replacing table: wp_63avey_yoast_primary_term: already done
+0091.923 () Search and replacing table: wp_63avey_yoast_seo_links: already done
+0092.156 () Restore successful!
+0092.156 () Restore successful

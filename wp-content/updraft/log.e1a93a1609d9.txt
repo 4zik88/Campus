@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Sun, 20 Feb 2022 10:52:18 +0000 on https://campusm.exlibrisgroup.com
+0000.049 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.15.2.24 WP: 5.9 PHP: 7.4.14 (cgi-fcgi, Linux ds12916 5.4.32-grsec-grsec.virt+ #1 SMP Sat Apr 18 00:33:59 UTC 2020 x86_64) MySQL: 5.7.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 54.5M | 56.5M) multisite: N openssl: OpenSSL 1.1.0g  2 Nov 2017 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.066 (1) Free space on disk containing Updraft's temporary directory: 896701.9 MB
+0000.083 (1) This backup task (e1a93a1609d9) is either complete or began over 2 days ago: ending (1645354338.3679, ) (existing jobdata keys: )
